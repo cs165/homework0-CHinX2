@@ -195,6 +195,14 @@ body {
   margin: 1em auto 2em auto;
 }
 
+.box a {
+  color: rgba(255, 255, 255, 0.75)
+}
+
+.box a:hover {
+  color: #ff8282
+}
+
 .box.alt {
   border: 0;
   border-radius: 0;
