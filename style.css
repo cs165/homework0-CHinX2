@@ -169,12 +169,12 @@ body {
   width: 100%;
 }
 
-.box .inner h3 {
+.box h3 {
   color: #acd6ff;
   margin: 0.5em auto 1em auto;
 }
 
-.box .inner p {
+.box p {
   margin: 1em auto 2em auto;
 }
 
