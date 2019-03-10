@@ -169,6 +169,23 @@ body {
   width: 100%;
 }
 
+.box .pic {
+  position: relative;
+  display: inline-block;
+}
+
+.box .pic .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.box .pic:hover .img-top {
+  display: inline;
+}
+
 .box h3 {
   color: #acd6ff;
   margin: 0.5em auto 1em auto;
