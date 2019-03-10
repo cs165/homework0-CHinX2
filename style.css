@@ -117,7 +117,7 @@ body {
 
 /* Main */
 #main {
-	padding: 4em 0 2em 0;
+  padding: 4em 0 2em 0;
 }
 
 #main .inner {
@@ -128,22 +128,22 @@ body {
 
 /* Box */
 .boxes {
-	display: -moz-flex;
-	display: -webkit-flex;
-	display: -ms-flex;
-	display: flex;
-	-moz-align-items: stretch;
-	-webkit-align-items: stretch;
-	-ms-align-items: stretch;
-	align-items: stretch;
-	-moz-justify-content: center;
-	-webkit-justify-content: center;
-	-ms-justify-content: center;
-	justify-content: center;
-	-moz-flex-wrap: wrap;
-	-webkit-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-align-items: stretch;
+  -webkit-align-items: stretch;
+  -ms-align-items: stretch;
+  align-items: stretch;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .boxes .box {
@@ -152,10 +152,10 @@ body {
 }
 
 .box {
-	border-radius: 20px;
-	margin-bottom: 2em;
-	background: #2c2c32;
-	text-align: center;
+  border-radius: 20px;
+  margin-bottom: 2em;
+  background: #2c2c32;
+  text-align: center;
 }
 
 .box img {
@@ -186,14 +186,14 @@ body {
 
 /* Footer */
 #footer {
-	padding: 1em 0 1em 0;
-	background-color: #1b1b1f;
-	text-align: center;
+  padding: 1em 0 1em 0;
+  background-color: #1b1b1f;
+  text-align: center;
 }
 
 #footer .inner {
-	width: 50%;
-	margin: 0 auto;
+  width: 50%;
+  margin: 0 auto;
 }
 
 #footer h2 {
