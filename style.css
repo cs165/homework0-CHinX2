@@ -213,9 +213,69 @@ body {
   margin: 0 auto;
 }
 
-#footer h2 {
+#footer .inner .ss {
   color: #9d9d9d;
   font-size: 1em;
   font-weight: 400;
   font-family: 'Montserrat Alternates', cursive;
 }
+
+#footer .inner .ss:hover {
+  -webkit-animation:colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+      0% {
+
+        color: #a5ffed;
+      }
+
+      10% {
+
+        color: #a4bdff;
+      }
+
+      20% {
+
+        color: #9587f2;
+      }
+
+      30% {
+
+        color: #e8baff;
+      }
+
+      40% {
+
+        color: #ffb2dc;
+      }
+
+      50% {
+
+        color: #ffb2b2;
+      }
+
+      60% {
+
+        color: #ff9b5e;
+      }
+
+      70% {
+
+        color: #ffd499;
+      }
+      80% {
+
+        color: #fff76d;
+      }
+
+      90% {
+
+        color: #b8ff6d;
+      }
+
+      100% {
+
+        color: #6dff93;
+      }
+    }
